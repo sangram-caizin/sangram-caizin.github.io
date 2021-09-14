@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/date-time/adapter/native-date-time-format.class.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/** @type {?} */
+export const OWL_NATIVE_DATE_TIME_FORMATS = {
+    parseInput: null,
+    fullPickerInput: { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric' },
+    datePickerInput: { year: 'numeric', month: 'numeric', day: 'numeric' },
+    timePickerInput: { hour: 'numeric', minute: 'numeric' },
+    monthYearLabel: { year: 'numeric', month: 'short' },
+    dateA11yLabel: { year: 'numeric', month: 'long', day: 'numeric' },
+    monthYearA11yLabel: { year: 'numeric', month: 'long' },
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF0aXZlLWRhdGUtdGltZS1mb3JtYXQuY2xhc3MuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy1waWNrLWRhdGV0aW1lLyIsInNvdXJjZXMiOlsibGliL2RhdGUtdGltZS9hZGFwdGVyL25hdGl2ZS1kYXRlLXRpbWUtZm9ybWF0LmNsYXNzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUtBLE1BQU0sT0FBTyw0QkFBNEIsR0FBdUI7SUFDNUQsVUFBVSxFQUFFLElBQUk7SUFDaEIsZUFBZSxFQUFFLEVBQUMsSUFBSSxFQUFFLFNBQVMsRUFBRSxLQUFLLEVBQUUsU0FBUyxFQUFFLEdBQUcsRUFBRSxTQUFTLEVBQUUsSUFBSSxFQUFFLFNBQVMsRUFBRSxNQUFNLEVBQUUsU0FBUyxFQUFDO0lBQ3hHLGVBQWUsRUFBRSxFQUFDLElBQUksRUFBRSxTQUFTLEVBQUUsS0FBSyxFQUFFLFNBQVMsRUFBRSxHQUFHLEVBQUUsU0FBUyxFQUFDO0lBQ3BFLGVBQWUsRUFBRSxFQUFDLElBQUksRUFBRSxTQUFTLEVBQUUsTUFBTSxFQUFFLFNBQVMsRUFBQztJQUNyRCxjQUFjLEVBQUUsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFFLEtBQUssRUFBRSxPQUFPLEVBQUM7SUFDakQsYUFBYSxFQUFFLEVBQUMsSUFBSSxFQUFFLFNBQVMsRUFBRSxLQUFLLEVBQUUsTUFBTSxFQUFFLEdBQUcsRUFBRSxTQUFTLEVBQUM7SUFDL0Qsa0JBQWtCLEVBQUUsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFFLEtBQUssRUFBRSxNQUFNLEVBQUM7Q0FDdkQiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIG5hdGl2ZS1kYXRlLXRpbWUtZm9ybWF0LmNsYXNzXG4gKi9cbmltcG9ydCB7IE93bERhdGVUaW1lRm9ybWF0cyB9IGZyb20gJy4vZGF0ZS10aW1lLWZvcm1hdC5jbGFzcyc7XG5cbmV4cG9ydCBjb25zdCBPV0xfTkFUSVZFX0RBVEVfVElNRV9GT1JNQVRTOiBPd2xEYXRlVGltZUZvcm1hdHMgPSB7XG4gICAgcGFyc2VJbnB1dDogbnVsbCxcbiAgICBmdWxsUGlja2VySW5wdXQ6IHt5ZWFyOiAnbnVtZXJpYycsIG1vbnRoOiAnbnVtZXJpYycsIGRheTogJ251bWVyaWMnLCBob3VyOiAnbnVtZXJpYycsIG1pbnV0ZTogJ251bWVyaWMnfSxcbiAgICBkYXRlUGlja2VySW5wdXQ6IHt5ZWFyOiAnbnVtZXJpYycsIG1vbnRoOiAnbnVtZXJpYycsIGRheTogJ251bWVyaWMnfSxcbiAgICB0aW1lUGlja2VySW5wdXQ6IHtob3VyOiAnbnVtZXJpYycsIG1pbnV0ZTogJ251bWVyaWMnfSxcbiAgICBtb250aFllYXJMYWJlbDoge3llYXI6ICdudW1lcmljJywgbW9udGg6ICdzaG9ydCd9LFxuICAgIGRhdGVBMTF5TGFiZWw6IHt5ZWFyOiAnbnVtZXJpYycsIG1vbnRoOiAnbG9uZycsIGRheTogJ251bWVyaWMnfSxcbiAgICBtb250aFllYXJBMTF5TGFiZWw6IHt5ZWFyOiAnbnVtZXJpYycsIG1vbnRoOiAnbG9uZyd9LFxufTtcbiJdfQ==

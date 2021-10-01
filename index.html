@@ -11,15 +11,47 @@
 	<meta name="theme-color" content="#ffff00">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/Treant.css">
+    <style type="text/css">
+        .page-loading {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          overflow: hidden;
+          background: dimgrey;
+          opacity: 0;
+          z-index: -1;
+          display: none;
+        }
 
-<link rel="stylesheet" href="styles.e5042682a6a053b04b58.css"></head>
+        .loading-icon {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 38px;
+          height: 38px;
+          margin-left: -19px;
+          margin-top: -19px;
+        }
+
+        app-root:empty ~ .page-loading {
+          display: block;
+          opacity: 1;
+          z-index: 9999;
+        }
+      </style>
+<link rel="stylesheet" href="styles.001c7b2d044fb62ad75f.css"></head>
 
 <body>
-	<app-root>Loading...</app-root>
+    <app-root></app-root>
+    <div class="page-loading">
+        <img src="assets/img/oval.svg" class="loading-icon" />
+    </div>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/raphael.js"></script>
 	<script src="assets/js/Treant.js"></script>
 
-<script src="polyfills-es5.da58843e80cefffe45f4.js" nomodule defer></script><script src="polyfills-es2015.bf72405f13cc0dc2d7fb.js" type="module"></script><script src="runtime-es2015.7780b5a1719a39284abc.js" type="module"></script><script src="main-es2015.72299a6fbd1e6ed8f999.js" type="module"></script><script src="runtime-es5.7780b5a1719a39284abc.js" nomodule defer></script><script src="main-es5.72299a6fbd1e6ed8f999.js" nomodule defer></script></body>
+<script src="polyfills-es5.da58843e80cefffe45f4.js" nomodule defer></script><script src="polyfills-es2015.bf72405f13cc0dc2d7fb.js" type="module"></script><script src="runtime-es2015.f61cf0499572f91e431e.js" type="module"></script><script src="main-es2015.8cab2b72d92c63916048.js" type="module"></script><script src="runtime-es5.f61cf0499572f91e431e.js" nomodule defer></script><script src="main-es5.8cab2b72d92c63916048.js" nomodule defer></script></body>
 
 </html>
